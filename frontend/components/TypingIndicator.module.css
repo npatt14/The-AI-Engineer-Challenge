@@ -1,0 +1,25 @@
+.line {
+  margin: 0 0 12px;
+  color: var(--mac-black);
+}
+
+.label {
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-menu);
+  font-weight: normal;
+  letter-spacing: -0.03em;
+}
+
+.dots {
+  display: inline-block;
+  animation: pulse 1s step-end infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}

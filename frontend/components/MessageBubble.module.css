@@ -1,0 +1,21 @@
+.line {
+  margin: 0 0 16px;
+  color: var(--mac-black);
+  word-wrap: break-word;
+}
+
+.coachLine {
+  text-align: left;
+}
+
+.userLine {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.label {
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-menu);
+  font-weight: normal;
+  letter-spacing: -0.03em;
+}

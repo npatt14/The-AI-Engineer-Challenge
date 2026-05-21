@@ -1,0 +1,8 @@
+.desktop {
+  min-height: calc(100vh - var(--mac-menu-height, 26px));
+  margin-top: var(--mac-menu-height, 26px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}

@@ -1,0 +1,28 @@
+@import "../styles/mac.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  min-height: 100%;
+  color: var(--mac-black);
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-ui);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  image-rendering: pixelated;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: default;
+}
+
+::selection {
+  background: var(--mac-highlight);
+  color: var(--mac-white);
+}

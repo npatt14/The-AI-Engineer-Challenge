@@ -1,0 +1,19 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  z-index: 300;
+}
+
+.body {
+  margin: 0 0 14px;
+  color: var(--mac-black);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,21 @@
+.wrap {
+  display: flex;
+  gap: 8px;
+  padding: 8px 10px 10px;
+  flex-shrink: 0;
+  background: var(--mac-white);
+  border-top: 1px solid var(--mac-black);
+}
+
+.input {
+  flex: 1;
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  overflow-y: auto;
+}
+
+.send {
+  align-self: flex-end;
+  flex-shrink: 0;
+}

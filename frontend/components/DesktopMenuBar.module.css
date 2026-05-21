@@ -1,0 +1,106 @@
+.menus {
+  display: flex;
+  align-items: stretch;
+}
+
+.menuWrap {
+  position: relative;
+  display: flex;
+}
+
+.menuBtn {
+  padding: 0 10px;
+  border: none;
+  background: transparent;
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-menu);
+  letter-spacing: 0;
+  line-height: 1;
+  color: var(--mac-black);
+  cursor: default;
+  -webkit-font-smoothing: none;
+}
+
+.menuBtn:hover:not(:disabled),
+.menuBtnOpen {
+  background: var(--mac-black);
+  color: var(--mac-white);
+}
+
+.menuBtn:disabled {
+  color: var(--mac-black);
+  opacity: 1;
+}
+
+.menuBtn:disabled.menuBtn:hover {
+  background: transparent;
+  color: var(--mac-black);
+}
+
+.appleBtn {
+  position: relative;
+  width: 26px;
+  padding: 0;
+}
+
+.appleBtn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--mac-black);
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M20.5 4.5c0 2.5-2 4.5-4 4.5-.3-2.5 2-4.5 4-4.5zM23 18c0-3 2.5-4.5 2.5-4.5-1.5-2-3.5-2.5-4.5-2.5-2-.2-3.7 1-4.5 1-1 0-2.5-1-4-1-2 0-4 1.2-5 3-2 3.5-.5 8.5 1.5 11.5 1 1.5 2 3 4 3 1.5 0 2-1 4-1s2.5 1 4 1c2 0 3-1.5 4-3 1-1.5 1.5-3 1.5-3-.1-.1-3-1.2-3-5.5z'/></svg>") center / 17px no-repeat;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M20.5 4.5c0 2.5-2 4.5-4 4.5-.3-2.5 2-4.5 4-4.5zM23 18c0-3 2.5-4.5 2.5-4.5-1.5-2-3.5-2.5-4.5-2.5-2-.2-3.7 1-4.5 1-1 0-2.5-1-4-1-2 0-4 1.2-5 3-2 3.5-.5 8.5 1.5 11.5 1 1.5 2 3 4 3 1.5 0 2-1 4-1s2.5 1 4 1c2 0 3-1.5 4-3 1-1.5 1.5-3 1.5-3-.1-.1-3-1.2-3-5.5z'/></svg>") center / 17px no-repeat;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.appMenu {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-menu);
+  -webkit-font-smoothing: none;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+}
+
+.emptyItem {
+  padding: 3px 18px 4px;
+  font-family: var(--mac-font-ui);
+  font-size: var(--mac-size-menu);
+  font-style: italic;
+  color: #888;
+}
+
+.convList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.convTitle {
+  display: block;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.convDate {
+  display: block;
+  font-size: 10px;
+  margin-top: 1px;
+  opacity: 0.7;
+}
+
+.convActive::before {
+  content: "✓ ";
+  margin-left: -10px;
+}
