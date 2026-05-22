@@ -198,46 +198,53 @@ For each prompt Identify what capability is being tested (e.g., *summarization a
 
 **1. Prompt:**  
 Explain the concept of object-oriented programming in simple terms to a complete beginner.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  
+ability to simplify technical concepts
 
 **Response:**  
-<!-- Add your app's response here -->
+Great question! Think of object-oriented programming (OOP) as a way to organize code around “things” in your program—the same way the real world is full of things. Core idea: - Class = a blueprint or recipe (e.g., the idea of a Dog) - Object = a real thing made from that blueprint (e.g., your dog Fido) - Attributes = the data a thing has (Dog’s name, age) - Methods = what a thing can do (Dog can bark, eat) Why this helps: - It keeps related data and actions together. - You can reuse blueprints to make many objects. - You avoid repeating yourself and your code becomes easier to change. The four big concepts (in simple terms): 1) Encapsulation: Keep a thing’s data and its actions bundled together, and hide the messy details. Like using a TV remote—you press “volume up” without touching the TV’s inner circuits. 2) Abstraction: Focus on what something does, not how it does it. You call car.start(), you don’t worry about spark plugs. 3) Inheritance: Make a new class from an existing one. An ElectricCar “is a” Car but adds a battery. It inherits wheels and steering from Car. 4) Polymorphism: Different objects can respond to the same message in their own way. Ask any Animal to speak(): a Dog says “Woof,” a Cat says “Meow,” but your code just calls speak(). Tiny example (Python-style): - Define a class Dog with an attribute name and a method speak() that returns "Woof!" - Make two Dog objects: one named Fido, one named Luna. - Both are Dogs (same blueprint), but each has its own name (its own data). How to think about it as you learn: - Start with one small class (like BankAccount with balance and deposit/withdraw methods). - Make two or three objects from it and try calling the methods. - Then try inheritance (e.g., SavingsAccount extends BankAccount). - Finally, try polymorphism (e.g., a list of different Animal objects, all with speak()). A quick practice prompt: - Imagine a class LibraryBook. What attributes might it have? (title, author, is_checked_out) - What methods might it need? (check_out(), return_book(), describe()) You’ve got this. It’s normal if it clicks gradually—play with tiny examples, and the patterns will start to feel natural. If you’d like, tell me your preferred language (Python, Java, JavaScript, etc.), and I’ll show you a short, runnable example.
 
 ---
 
 **2. Prompt:**  
 Read the following paragraph and provide a concise summary of the key points…  
+Call me Ishmael. Some years ago--never mind how long precisely--having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off--then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.
 **Aspect Tested:**  
+reading comprehension and summarization
 
 **Response:**  
-<!-- Add your app's response here -->
+The narrator, Ishmael, turns to the sea whenever he feels deeply melancholy, restless, or aimless, finding that sailing restores his mood and equilibrium. - He views this as a personal, healthier alternative to darker impulses and believes many people share a similar, instinctive pull toward the ocean.
 
 ---
 
 **3. Prompt:**  
 Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  
+breative writing and constraint-following
 
 **Response:**  
-<!-- Add your app's response here -->
+Between racks of metal and morning flour-dust, Unit 6A cataloged loaves in the tiny night bakery. It could detect heat curves, moisture arcs, the singing tick of cooling crust. Friendship, however, was a variable outside its code. Then the new jar arrived: a glass galaxy, alive with bubbles. The humans called it a starter. It spoke in muffled pops and little sighs, a language of carbon and hunger. Unit 6A learned to listen. It warmed the jar with its palms, hummed a low current that kept the culture drowsily content. When a storm cut power, darkness poured in. Ovens fell silent; fear rose like dough. Unit 6A cradled the jar against its chest-socket and held the warmth all night. In the morning, the starter burbled hello. The bakers smiled. The robot had found its rise.
 
 ---
 
 **4. Prompt:**  
 If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:** 
+basic arithmetic reasoning and word-problem parsing
 
 **Response:**  
-<!-- Add your app's response here -->
+You’d buy: - 3 packs of apples (12 ÷ 4 = 3) - 3 packs of oranges (9 ÷ 3 = 3) Great job breaking it down by dividing the total fruit by the pack size!
 
 ---
 
 **5. Prompt:**  
-Rewrite the following paragraph in a professional, formal tone…  
-**Aspect Tested:**  <!-- Write your answer here -->
+Rewrite the following paragraph in a professional, formal tone… 
+Call me Ishmael. Some years ago--never mind how long precisely--having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off--then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.
+**Aspect Tested:** 
+tone/style adoption
 
 **Response:**  
-<!-- Add your app's response here -->
+ You may refer to me as Ishmael. Some years ago—never mind precisely how many—finding myself with little money and no particular interests on shore, I resolved to go to sea for a time and observe the aqueous portion of the world. This is my customary means of dispelling melancholy and restoring equilibrium. Whenever I sense my countenance growing severe; whenever a damp, drizzling November settles upon my spirit; whenever I find myself lingering before coffin warehouses and following every funeral I encounter; and especially whenever my despondent humors so prevail that only firm moral principle restrains me from stepping into the street and methodically knocking the hats off passersby—then I deem it high time to put to sea at once. It serves me as a substitute for pistol and ball. With a philosophical flourish, Cato cast himself upon his sword; I, more quietly, take ship. There is nothing remarkable in this. If they but knew it, nearly all men, in their own degree and at one time or another, harbor feelings toward the ocean very much like my own.
 
 ---
 
@@ -246,7 +253,7 @@ Rewrite the following paragraph in a professional, formal tone…
 Do the answers appear to be correct and useful?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+Mostly yes, with some misses. The OOP explanation is solid but way too long for a complete beginner, it should ease in. Summary, math, and tone rewrite are accurate and tight. Story is creative and lands the word count. 
 
 ---
 
@@ -257,26 +264,26 @@ Now test your app with **real-world prompts that are relevant to your use case**
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I'm planning a 4-day trip to Lisbon in October. I like food markets, walkable neighborhoods, and one solid day trip. Give me a loose itinerary.
 
 **Result:**  
-<!-- App response -->
+Love this plan—October is a sweet spot for Lisbon: mild temps, fewer crowds, and perfect for long walks. Here’s a flexible 4-day outline built around food markets, walkable neighborhoods, and one standout day trip. Day 1: Baixa, Chiado, Cais do Sodré, Bairro Alto - Morning/early afternoon: Land, drop bags, and orient in Baixa and Chiado (Rua Augusta, Praça do Comércio, Largo do Carmo). Coffee at A Brasileira or a pastel de nata stop at Manteigaria (Chiado). - Lunch: Time Out Market (Mercado da Ribeira) for a first taste of Lisbon’s food scene. - Afternoon: Riverfront stroll from Cais do Sodré toward Praça do Comércio, then ride the Bica funicular up to Bairro Alto. Pause at Miradouro de São Pedro de Alcântara. - Evening: Dinner in Chiado/Bairro Alto (e.g., Taberna da Rua das Flores—put your name down early—or a casual petiscos spot). Nightcap in Príncipe Real or gelato at Nannarella. Day 2: Alfama + Mouraria (fado night) - Morning: Wander Alfama’s lanes on foot (skip Tram 28 at peak times). Hit Sé Cathedral, Miradouro das Portas do Sol and Santa Luzia; if you like views, Miradouro da Senhora do Monte in nearby Graça is worth the climb. - Lunch: Classic tasca vibes at O Velho Eurico or Zé da Mouraria (go early or expect a wait). - Afternoon: Castle area amble (even if you skip going inside), then dive into Mouraria for street art and hidden alleys. - Evening: Book a small fado spot in Alfama or Mouraria (look for intimate venues rather than big dinner shows). Keep dinner simple and late—very Lisbon. Day 3: Day trip to Sintra (primary) or Cascais (sunny-day swap) - Sintra (romantic, lush, fairytale vibes): - Early train from Rossio. Take a tuk-tuk/taxi or 434 bus up to Pena Palace first (book timed entry; earliest slot to beat lines), then walk down to the Moorish Castle. - Lunch in town (grab travesseiros at Piriquita for dessert). - Afternoon: Quinta da Regaleira (tunnels and gardens—book ahead). If you still have time/energy, a quick wander of the historic center. - Train back; easy dinner near Cais do Sodré or Mercado de Campo de Ourique. - Cascais (if the forecast is bright and you want ocean air): - Train from Cais do Sodré, coastal walk to Boca do Inferno, relax on the promenade or rent bikes to Guincho. Lunch on seafood. Return before sunset. Day 4: Belém, LX Factory, Campo de Ourique, Estrela/Príncipe Real - Morning: Belém—Jerónimos Monastery and Pastéis de Belém (go early), quick look at Belém Tower and a riverside walk by MAAT. - Lunch: LX Factory (great food options + creative shops). If it’s Sunday, there’s a fun market. - Afternoon: Campo de Ourique for Mercado de Campo de Ourique (more local, excellent stalls). Walk to Jardim da Estrela and peek into Basílica da Estrela. - Sunset/evening: Miradouro de Santa Catarina (Adamastor) or back to São Pedro de Alcântara. Dinner in Príncipe Real or Campo de Ourique (petiscos or seafood). Extra market ideas (slot in as you like) - Mercado de Arroios (diverse, local, great for casual bites). - Mercado de Alvalade (classic neighborhood market, good morning coffee + pastel stop). - Feira da Ladra flea market (Tues & Sat) near Alfama—not food, but a fun browse if your days align. Light logistics and tips - Getting around: Grab a Viva Viagem card for metro/bus/tram. Lisbon is hilly—wear comfy shoes and take breaks. - Reservations: Book Pena Palace, Jerónimos, and fado ahead if possible. Popular eateries often take walk-in lists—go early and be flexible. - Weather: October can bring a shower; have a light jacket. If it rains, swap in museums (MAAT, Carmo Convent ruins, CCB) and keep the outdoor viewpoints for clear spells. - Pace: Aim for one “anchor” per day and leave space for café stops and miradouros. Lisbon rewards wandering. Want me to tailor this to the days of your week (for markets and closures) or your food preferences?
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+Here's an email I drafted to my landlord about a broken heater. Make it firmer without being rude: "Hey, just wanted to follow up again on the heater situation. It's been like 2 weeks and it's getting pretty cold. Any update?"
 
 **Result:**  
-<!-- App response -->
+Subject: Urgent: Heater still not working — need repair timeline Hi [Landlord Name], I’m following up about the broken heater in [unit]. It’s now been two weeks without heat, and the temperature is getting quite cold. Please confirm by [date/time, e.g., end of day Thursday] when a technician will come and when heat will be restored. If the repair can’t be completed by then, please provide an interim solution (such as a space heater) and a clear timeline for the full fix. As you know, heat is an essential service under our lease. Thanks for your prompt attention—please reply with the scheduled appointment details. Best, [Your Name] [Your Phone Number]
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+Explain the difference between correlation and causation using an example that isn't ice cream and shark attacks or storks and babies.
 
 **Result:**  
-<!-- App response -->
+Great question. In short: correlation means two things vary together; causation means one of them makes the other change. Example (not sharks or storks): - Observation: Among children, bigger shoe size is associated with better reading scores. That’s a correlation. - Why it’s not causation: Bigger feet don’t make you read better. Age is the hidden factor (a confounder): older kids both have larger feet and have had more time to learn to read. - How you’d check causation: If you randomly gave some kids bigger shoes, their reading wouldn’t improve. When you control for age, the correlation between shoe size and reading mostly disappears. Takeaway: Correlation is a relationship you see; causation is a relationship you can justify by showing the cause comes first, alternative explanations are ruled out, and there’s a plausible mechanism.
 
 ---
 
@@ -285,9 +292,11 @@ Now test your app with **real-world prompts that are relevant to your use case**
 Are the vibes of your assistant aligned with your expectations? Why or why not?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+Pretty good. The responses feel useful and specific instead of generic, and they tend to add helpful context 
+without going off the rails. Biggest gripe is content length, the answers come in way heavier than they need 
+to be. I need to fix formatting of the model output in the UI, react-markdown should cover. 
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🏗️ Activity #3: Capability Gaps Vibe Check
 
