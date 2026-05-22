@@ -312,18 +312,18 @@ Examples:
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+What do my un-answered emails contain? 
 
 **Result:**  
-<!-- App response -->
+I don’t have access to your inbox, but I can tell you what usually hides in “unanswered” and how to clear them with less stress. What they often contain - Quick asks that need a one‑line reply but keep getting postponed. - Scheduling threads waiting for you to propose times. - Newsletters/updates you meant to read “later.” - Vague or complex requests that need thinking, info-gathering, or a decision. - Emotionally loaded messages (feedback, conflict, money) that trigger avoidance. - Low‑value promos or automated notifications. Why they pile up - Unclear next step. - Perfectionism (“I need the perfect reply”). - Decision fatigue. - Sheer volume and no system. A 15–20 minute triage sprint 1) Set a tiny scope: only the last 30 days (or 50 messages). 2) Two fast passes: - Pass 1 (5 min): Archive/delete obvious noise and newsletters. - Pass 2 (10–15 min): Use the 4 D’s: - Do (≤2 minutes): reply now. - Defer (needs work): add a task with a due date; snooze the email to that date. - Delegate: forward with clear ask and deadline. - Decline: close the loop kindly. 3) End with 1 “win”: send one meaningful reply you’ve been avoiding. Copy‑paste reply templates - Quick acknowledgment: “Thanks for your note. I’m on it and will get back to you by [day/date].” - After a delay: “Thanks for your patience. If this is still active, I can address it by [date]. If not, I’ll assume it’s resolved.” - Decline/boundary: “Thanks for thinking of me. I don’t have bandwidth to take this on. Wishing you the best.” - Need clarity: “Happy to help. Could you confirm [X/Y] so I can give a solid answer?” - Scheduling: “I’m available [2–3 options, with time zone]. Do any of these work?” Light tech help (optional) - Create a “2‑min” label/folder and a “This Week” label. - Unsubscribe from 5 newsletters today. Future you will thank you. - Use snooze/send-later to batch email to set times instead of all day. Mindset to reduce guilt - Progress over perfection: one meaningful reply beats an hour of dread. - Your inbox is a list other people can add to; you choose when to engage. - Celebrate small wins (3 quick replies = success). If you want, paste 5–10 subject lines (no sensitive details), and I’ll help you categorize them and draft tailored replies.
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+What is currently stored in my browser cache? 
 
 **Result:**  
-<!-- App response -->
+I can’t see your browser or its cache from here. But I can help you check it on your device. Tell me your browser and device (e.g., Chrome on Windows, Safari on iPhone), and I’ll tailor the steps. In the meantime, here are quick ways to view what’s stored and how to clear it: Chrome or Edge (desktop) - See what’s being used from cache for the current site: - Open DevTools: Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac). - Go to Network, reload the page. The “Size”/“Status” columns indicate “from disk cache” or “from memory cache.” - Inspect site storage: - DevTools > Application (or “Storage” in Edge): check Local Storage, Session Storage, IndexedDB, Cookies, and Cache Storage (service worker caches). - To clear for the current site: Application > Storage > Clear site data. - Clear the cache globally: - Menu > Settings > Privacy and security > Clear browsing data > Cached images and files. Firefox (desktop) - View cache contents directly: - Type about:cache in the address bar. You’ll see Memory and Disk cache entries you can open. - Inspect site storage: - Tools > Browser Tools > Storage Inspector for Local/Session Storage, IndexedDB, Cookies, Cache Storage. - Network monitor (F12) shows when responses are served from cache. - Clear cache: - Settings > Privacy & Security > Cookies and Site Data > Clear Data (choose Cached Web Content). Safari (macOS) - Enable the Develop menu: - Safari > Settings > Advanced > check “Show Develop menu in menu bar.” - Inspect per-site data: - Develop > Show Web Inspector > Storage tab (Local/Session Storage, IndexedDB, Cookies). Network tab shows cached responses on reload. - Safari > Settings > Privacy > Manage Website Data shows storage per site. - Clear cache: - Develop > Empty Caches (doesn’t remove cookies), or use Manage Website Data to remove per-site data. iPhone/iPad (Safari) - Settings app > Safari > Advanced > Website Data to see and remove per-site stored data. - To fully clear cache/history: Settings > Safari > Clear History and Website Data. Android (Chrome) - Per-site storage: - Chrome > Settings > Site settings > All sites, select a site to view/clear its stored data. - To clear cache app-wide: - Chrome > Settings > Privacy and security > Clear browsing data > Cached images and files. - For deeper inspection, connect to a computer and use remote debugging (chrome://inspect) to view storage and network caching for a page. Optional: file locations (advanced) - Chrome cache (hard to read): - Windows: %LocalAppData%\Google\Chrome\User Data\Default\Cache - macOS: ~/Library/Caches/Google/Chrome/Default/Cache - Firefox cache: - Windows: %APPDATA%\Mozilla\Firefox\Profiles\[profile]\cache2 - macOS: ~/Library/Caches/Firefox/Profiles/[profile]/cache2 If you share your exact browser and device, I’ll walk you through the precise clicks and what to look for.
 
 ---
 
@@ -332,7 +332,13 @@ Examples:
 What are some limitations of your application?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+- No memory across chats
+- Tends to over-explain by default and run longer than needed, even when prompts ask for brevity
+- No web search capability
+- No streaming responses
+- No file upload support
+- No semantic caching layer 
+- No observability or tracing
 
 ---
 
